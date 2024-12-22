@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add these custom styles for the date picker */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker {
+  font-family: Arial, sans-serif;
+  border-radius: 0.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.react-datepicker__header {
+  background-color: #7c3aed;
+  border-bottom: none;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding-top: 8px;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+  color: white;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: #7c3aed;
+  color: white;
+}
+
+.react-datepicker__day:hover {
+  background-color: #9f7aea;
+}
+
+/* ... (keep any existing custom styles) */
+
